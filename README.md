@@ -8,7 +8,7 @@ I'll be frank, I didn't test most of these versions personally, I took it on fai
 
 ### How to Install
 
-See instructions in the releases section, to the right.
+Download from the release section, to the right. Place LiveSplit.SpyroTheDragonBonkCounter.dll in your LiveSplit installation's Components folder, and place PropertyHook.dll in LiveSplit's main directory.
 
 ### Speedrun Legality
 
