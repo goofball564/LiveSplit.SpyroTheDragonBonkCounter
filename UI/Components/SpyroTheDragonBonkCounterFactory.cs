@@ -22,7 +22,7 @@ namespace LiveSplit.SpyroTheDragonBonkCounter.UI.Components
 
         public string UpdateURL => "";
 
-        public Version Version => Version.Parse("1.0.0");
+        public Version Version => Version.Parse("1.0.1");
 
         public IComponent Create(LiveSplitState state)
         {

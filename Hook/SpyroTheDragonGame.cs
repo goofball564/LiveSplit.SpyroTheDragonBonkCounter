@@ -24,7 +24,8 @@ namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
         {
             return (p.ProcessName == MEDNAFEN_NAME)
             || (p.ProcessName == DUCKSTATION_NOGUI_NAME)
-            || (p.ProcessName == DUCKSTATION_QT_NAME);
+            || (p.ProcessName == DUCKSTATION_QT_NAME)
+            || (p.ProcessName == EPSXE_NAME);
         };
 
         private IntPtr _emulatorBaseRAMAddress = IntPtr.Zero;
