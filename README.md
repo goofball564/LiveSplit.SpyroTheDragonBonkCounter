@@ -21,5 +21,5 @@ This component isn't (according to my own reading) obviously against the rules f
 Contact me on discord at Jaaaaack#8889. There are 5 a's in my name, and my profile picture has a giraffe in it.
 
 ### Credit To
-* The [autosplitter](https://gist.github.com/FranklyGD/c2cb3e35a14ba42f4b3890852b86a320) for this game by FranklyGD, lumilaura, lucx40, and ThirstyWraith, which I shamelessly copied from to support different emulator versions. 
+* The [autosplitter](https://gist.github.com/FranklyGD/c2cb3e35a14ba42f4b3890852b86a320) for this game by FranklyGD, Laura, lucx40, and ThirstyWraith, which I shamelessly copied from to support different emulator versions. 
 * [PropertyHook](https://github.com/JKAnderson/PropertyHook) by JKAnderson
