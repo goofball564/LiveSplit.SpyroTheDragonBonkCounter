@@ -8,7 +8,9 @@ I'll be frank, I didn't test most of these versions personally, I took it on fai
 
 ### How to Install
 
-See instructions in the releases section, to the right.
+Download from the release section, to the right. Place LiveSplit.SpyroTheDragonBonkCounter.dll in your LiveSplit installation's Components folder, and place PropertyHook.dll in LiveSplit's main directory.
+
+Add it to your LiveSplit layout by right clicking LiveSplit --> clicking "Edit Layout" --> clicking the plus button --> selecting "Spyro the Dragon Bonk Counter" from the Information section.
 
 ### Speedrun Legality
 
@@ -19,5 +21,5 @@ This component isn't (according to my own reading) obviously against the rules f
 Contact me on discord at Jaaaaack#8889. There are 5 a's in my name, and my profile picture has a giraffe in it.
 
 ### Credit To
-* The [autosplitter](https://gist.github.com/FranklyGD/c2cb3e35a14ba42f4b3890852b86a320) for this game by FranklyGD, lucx40, and ThirstyWraith, which I shamelessly copied from to support different emulator versions. 
+* The [autosplitter](https://gist.github.com/FranklyGD/c2cb3e35a14ba42f4b3890852b86a320) for this game by FranklyGD, Laura, lucx40, and ThirstyWraith, which I shamelessly copied from to support different emulator versions. 
 * [PropertyHook](https://github.com/JKAnderson/PropertyHook) by JKAnderson
