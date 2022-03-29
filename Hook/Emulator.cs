@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
+namespace LiveSplit.SpyroTheDragonBonkCounter.Hook
 {
     public abstract class Emulator
     {
@@ -20,5 +20,7 @@ namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
         {
             this.emulatorProcess = emulatorProcess;
         }
+
+        public abstract void Dispose();
     }
 }

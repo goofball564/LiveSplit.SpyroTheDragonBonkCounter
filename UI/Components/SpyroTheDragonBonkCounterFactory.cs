@@ -12,7 +12,7 @@ namespace LiveSplit.SpyroTheDragonBonkCounter.UI.Components
     {
         public string ComponentName => "Spyro the Dragon Bonk Counter";
 
-        public string Description => "Counts the number of times you bonk while speedrunning Spyro the Dragon";
+        public string Description => "Counts the number of times you bonk while speedrunning Spyro the Dragon (v1.0.2)";
 
         public ComponentCategory Category => ComponentCategory.Information;
 
@@ -22,7 +22,7 @@ namespace LiveSplit.SpyroTheDragonBonkCounter.UI.Components
 
         public string UpdateURL => "";
 
-        public Version Version => Version.Parse("1.0.1");
+        public Version Version => Version.Parse("1.0.2");
 
         public IComponent Create(LiveSplitState state)
         {

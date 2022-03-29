@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 
-namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
+namespace LiveSplit.SpyroTheDragonBonkCounter.Hook
 {
     class Mednafen : Emulator
     {
@@ -16,6 +16,10 @@ namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
         public Mednafen(Process emulatorProcess) : base(emulatorProcess)
         {
             DetermineBaseRAMAddress();
+        }
+
+        public override void Dispose()
+        {
         }
 
         private void DetermineBaseRAMAddress()
@@ -54,6 +58,14 @@ namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
                 case 0x55f1000:
                     // version = "1.27.1 64bit";
                     _baseRAMAddress = mainModule.BaseAddress + 0x1cade80;
+                    break;
+                case 0x3C81000:
+                    // version = "1.29.0 32bit";
+                    _baseRAMAddress = mainModule.BaseAddress + 0x1438160;
+                    break;
+                case 0x574B000:
+                    // version = "1.29.0 64bit";
+                    _baseRAMAddress = mainModule.BaseAddress + 0x1C03E80;
                     break;
                 default:
                     _baseRAMAddress = IntPtr.Zero;

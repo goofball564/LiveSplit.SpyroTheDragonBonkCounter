@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 
-namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
+namespace LiveSplit.SpyroTheDragonBonkCounter.Hook
 {
     class EPSXe : Emulator
     {
@@ -16,6 +16,10 @@ namespace LiveSplit.SpyroTheDragonMusicPlayer.Hook
         public EPSXe(Process emulatorProcess) : base(emulatorProcess)
         {
             DetermineBaseRAMAddress();
+        }
+
+        public override void Dispose()
+        {
         }
 
         private void DetermineBaseRAMAddress()

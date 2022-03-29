@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Drawing;
 using System.Windows.Forms;
-using LiveSplit.SpyroTheDragonMusicPlayer.Hook;
+using LiveSplit.SpyroTheDragonBonkCounter.Hook;
 using LiveSplit.SpyroTheDragonBonkCounter.UI.Components;
 using System.Diagnostics;
 
@@ -95,7 +95,7 @@ namespace LiveSplit.SpyroTheDragonBonkCounter
         public IDictionary<string, Action> ContextMenuControls => null;//throw new NotImplementedException();
 
         protected LiveSplitState State { get; set; }
-        protected SpyroTheDragonGame Spyro { get; set; }
+        protected SpyroTheDragonHook Spyro { get; set; }
         protected SpyroTheDragonBonkCounterSettings Settings { get; set; }
 
         protected InfoTextComponent AllTimeBonkCountComponent { get; set; }
@@ -111,8 +111,7 @@ namespace LiveSplit.SpyroTheDragonBonkCounter
 
         public SpyroTheDragonBonkCounterComponent(LiveSplitState state)
         {
-            int ramAddressPollingInterval = 5000;
-            Spyro = new SpyroTheDragonGame(ramAddressPollingInterval);
+            Spyro = new SpyroTheDragonHook();
             State = state;
             Settings = new SpyroTheDragonBonkCounterSettings();
 

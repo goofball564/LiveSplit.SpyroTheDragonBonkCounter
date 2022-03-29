@@ -57,7 +57,7 @@
     <Compile Include="Hook\Emulator.cs" />
     <Compile Include="Hook\EPSXe.cs" />
     <Compile Include="Hook\Mednafen.cs" />
-    <Compile Include="Hook\SpyroTheDragonGame.cs" />
+    <Compile Include="Hook\SpyroTheDragonHook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\Components\SpyroTheDragonBonkCounterFactory.cs" />
     <Compile Include="UI\Components\SpyroTheDragonBonkCounterSettings.cs">
